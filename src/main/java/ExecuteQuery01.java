@@ -53,6 +53,7 @@ public class ExecuteQuery01 {
         String query4 = "SELECT name, grade FROM students WHERE grade> (SELECT AVG(pass_grade) FROM departments)";
         ResultSet resultSet4=statement.executeQuery(query4);
         while(resultSet4.next()){
+
             System.out.println(resultSet4.getString("name")+" -- "+resultSet4.getInt("grade"));
         }
 
