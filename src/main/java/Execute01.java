@@ -23,6 +23,7 @@ public class Execute01 {
         // "employee_id", "employee_name", "salary"
 //        boolean sql1 = statement.execute("CREATE TABLE employee (employee_id INT, employee_name VARCHAR(50), salary REAL)");
 //        System.out.println("sql1: " + sql1);
+
         /*
         --execute() returns boolean value and can be used for DDL (Data Definition Language) or
             DQL(Data Query Language)
