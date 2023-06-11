@@ -28,10 +28,6 @@ public class PreparedStatement01 {
        int numOfUpdatedRows2=prs.executeUpdate();
         System.out.println("numOfUpdatedRows2 = " + numOfUpdatedRows2);
 
-        //TASK-2. Insert software engineering department using prepared statement into departments table.
-        // (id = 5006, pass_grade=475, campus='South')
-
-        System.out.println("************** Task-3 **************");
 
 
 

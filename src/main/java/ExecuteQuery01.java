@@ -13,6 +13,16 @@ public class ExecuteQuery01 {
         boolean sql1=statement.execute(query1);
         System.out.println("sql1 = " + sql1);
 
+        //Select *from where id=60654;
+        //TASK EXTRA:create workers table
+        System.out.println("----------------extra task-----------------");
+
+        String queryExtra="CREATE TABLE workers(worker_id CHAR, worker_name VARCHAR(80), worker_address VARCHAR(80))";
+
+        boolean querySQLExtra= statement.execute(queryExtra);
+
+        System.out.println("querySQLExtra = " + querySQLExtra);
+
         ResultSet resultSet=statement.executeQuery(query1);
         //resultSet.getString(1);
         //We can use column index number

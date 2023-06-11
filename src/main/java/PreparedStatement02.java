@@ -30,6 +30,7 @@ public class PreparedStatement02 {
 
         prs.close();
         prs2.close();
+
         statement.close();
         con.close();
     }
