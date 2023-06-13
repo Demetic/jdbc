@@ -17,7 +17,9 @@ public class MedunnaRoomDataBaseTest {
 
         String sqlQuery="SELECT * FROM room where id =60654;";
 
+
         ResultSet resultSet= statement.executeQuery(sqlQuery);
+
 
         System.out.println("resultSet = " + resultSet);
 
