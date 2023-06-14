@@ -15,11 +15,9 @@ public class Execute01 {
        //3. step : Create Statement-- to execute SQL queries
 
         Statement statement =con.createStatement();
-
         //to test if we have created connection to DB
 
         //System.out.println("Connected Successfully");
-
         //4. step : Execute SQL queries
         //TASK: create a table named "employee" with column names of :
         // "employee_id", "employee_name", "salary"
