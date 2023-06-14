@@ -37,7 +37,9 @@ try{
         //after exception this update will not run
         prs.setInt(1,1000);
         prs.setInt(2,5678);
+
         prs.executeUpdate();
+
         //second update query end
         con.commit();//we have set this to false, now we are committing manually
         prs.close();
