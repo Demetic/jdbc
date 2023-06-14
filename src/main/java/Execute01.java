@@ -13,9 +13,11 @@ public class Execute01 {
                "dev_user","Password");
 
        //3. step : Create Statement-- to execute SQL queries
+
         Statement statement =con.createStatement();
 
         //to test if we have created connection to DB
+
         //System.out.println("Connected Successfully");
 
         //4. step : Execute SQL queries
