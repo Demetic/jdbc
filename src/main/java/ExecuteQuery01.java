@@ -16,7 +16,6 @@ public class ExecuteQuery01 {
         //Select *from where id=60654;
         //TASK EXTRA:create workers table
         System.out.println("----------------extra task-----------------");
-
         String queryExtra="CREATE TABLE workers(worker_id CHAR, worker_name VARCHAR(80), worker_address VARCHAR(80))";
 
         boolean querySQLExtra= statement.execute(queryExtra);
